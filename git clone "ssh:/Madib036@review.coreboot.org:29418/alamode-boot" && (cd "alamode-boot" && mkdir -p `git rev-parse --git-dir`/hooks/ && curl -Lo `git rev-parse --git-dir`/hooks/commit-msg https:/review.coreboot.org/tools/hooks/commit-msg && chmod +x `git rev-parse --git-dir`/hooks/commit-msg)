@@ -1,0 +1,1 @@
+git clone "ssh://Madib036@review.coreboot.org:29418/alamode-boot" && (cd "alamode-boot" && mkdir -p `git rev-parse --git-dir`/hooks/ && curl -Lo `git rev-parse --git-dir`/hooks/commit-msg https://review.coreboot.org/tools/hooks/commit-msg && chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
